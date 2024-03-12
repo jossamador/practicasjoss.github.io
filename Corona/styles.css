@@ -1,0 +1,67 @@
+body, html {
+    font-family: 'Playfair Display', serif; 
+}
+
+
+.navbar {
+    background-color: #f8f9fa; 
+    font-family: 'Playfair Display', serif; 
+}
+
+
+.hero-section {
+    background-image: url('imagenes/corona2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 400px 0;
+}
+
+.hero-section h1, 
+.hero-section p {
+    color: #ffffff; 
+}
+
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+.logo-hover {
+    display: inline-block; 
+    width: 100px; 
+    height: 30px; 
+    background-image: url('imagenes/unnamed.jpg'); 
+    background-size: cover; 
+    text-indent: -9999px; 
+}
+
+.logo-hover:hover {
+    background-image: url('imagenes/corona2.jpg'); 
+}
+
+.footer {
+    background-color: #007bff; 
+    padding: 20px 0; 
+    font-size: 0.9rem; 
+    color: white; 
+}
+
+.footer-section h5 {
+    margin-bottom: 15px; 
+    color: #ffffff; 
+}
+
+.footer-section ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.footer-section ul li a {
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline; 
+}
