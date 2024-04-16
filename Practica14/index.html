@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <h1>Practica 14</h1>
+    <p id="nombreCompleto">Este es un parrafo</p>
+
+    <script>
+        let miVariable = 10; // Number
+        let numero = 10; // Number
+        let texto = "Hola mundo"; // String
+        console.log(miVariable, numero);
+        console.log(texto);
+        console.log("Resultado enconsola:" , miVariable);
+
+        function saludar(nombre){
+            console.log("Hola mundo" + nombre);
+        }
+
+        let nuevoNombre = "Juan";
+        console.log(saludar(nuevoNombre));
+
+        let estado = true;
+        let otroEstado = false;
+        let arreglo = [1,2,3,4,5];	
+        let arreglo2 = ["Juan", "Pedro", "Maria"];
+        let arreglo3 = [1, "Juan", true, 1.5];
+        
+
+
+        let nombre = "Tony"; // String
+        let apellido = "Stark"; // String
+        let nombreCompleto = nombre + " " + apellido;
+        console.log(nombreCompleto);
+
+        let nombreEnPantalla = document.getElementById("nombreCompleto");
+        nombreEnPantalla.innerHTML = nombreCompleto;
+        </script>
+</body>
+</html>
