@@ -1,0 +1,90 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4848486e;
+}
+
+body {
+    font-family: 'Poetsen One', sans-serif;
+}
+
+.btn-primary, .btn-info, .btn-warning, .btn-secondary {
+    font-family: 'Poetsen One', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em; /* Ajusta el tamaño de la fuente aquí */
+}
+
+.form-control {
+    font-family: 'Poetsen One', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em; /* Ajusta el tamaño de la fuente aquí */
+}
+
+#resultado {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 110px;
+    text-align: right;
+    font-size: 2em; /* Ajusta el tamaño de la fuente aquí */
+    padding: 10px;
+    border: 2px solid #ffd34f;
+    border-radius: 5px;
+}
+
+.btn {
+    color: rgb(255, 255, 255); /* Cambia el color del texto */
+    width: 100px; /* Establece un ancho fijo */
+    font-size: 1.5em; /* Ajusta el tamaño de la fuente aquí */
+}
+
+.btn-primary {
+    background-color: #4c4c4c;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.btn-info {
+    background-color: #57caff;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.btn-warning {
+    background-color: #f1c101;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.btn-secondary {
+    background-color: #a6a6a6;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.container-fluid {
+    width: 500px;  /* Ajusta este valor según necesites */
+    margin: auto;  /* Para centrar el contenedor en la página */
+    border: 10px solid #9c9c9c; /* Añade un borde sólido negro */
+    border-radius: 10px; /* Bordes redondeados para suavidad */
+    box-shadow: 5px 5px 15px rgb(255, 179, 47); /* Sombra para efecto 3D */
+    background-color: #000000; /* Fondo blanco para el contenedor */
+    padding: 10px; /* Espaciado interno para que el contenido no toque los bordes */
+    display: flex;
+    flex-direction: column; /* Alineación vertical de los elementos internos */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+@media (max-width: 600px) {
+    .btn {
+        width: 100px;  /* Botones más grandes en dispositivos más pequeños */
+        margin: 10px 0;
+        font-size: 1.2em; /* Ajusta el tamaño de la fuente en dispositivos pequeños */
+    }
+
+    .container-fluid {
+        width: 100%;  /* Aumenta el ancho en dispositivos más pequeños para mejor accesibilidad */
+    }
+}
