@@ -1,0 +1,55 @@
+/* styles.css */
+
+/* Cambiar el fondo de la página */
+body {
+    background-color: #90f0ff; /* Un color gris claro */
+}
+
+/* Cambiar el color del título */
+h1 {
+    color: #000000; /* Un color gris oscuro */
+}
+
+/* Cambiar el estilo del botón "Crear tarea" */
+.btn-outline-success {
+    background-color: #22ff56; /* Color verde */
+    border-color: #000000;
+    color: white;
+}
+
+.btn-outline-success:hover {
+    background-color: #0ad10a; /* Verde más oscuro al pasar el ratón */
+    border-color: #ffffff;
+}
+
+/* Cambiar el color de los elementos de la lista de tareas */
+.row .col-12.col-md-3 {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #000000; /* Texto gris oscuro */
+}
+
+.row .col-12.col-md-3.border {
+    border: 1px solid #0441f7; /* Borde gris claro */
+}
+
+/* Cambiar el color de los botones de edición y eliminación */
+.btn.bg-success {
+    background-color: #6a00ff; /* Color azul claro */
+    border-color: #000000;
+}
+
+.btn.bg-success:hover {
+    background-color: #961313; /* Azul más oscuro al pasar el ratón */
+    border-color: #000000;
+}
+
+.btn-danger {
+    background-color: #ff0000; /* Color rojo */
+    border-color: #000000;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Rojo más oscuro al pasar el ratón */
+    border-color: #000000;
+}
