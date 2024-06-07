@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <img src="imagenes/Logo J.png" alt="Logo" class="logo">
+        <div class="menu-icon" id="menu-icon">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav class="dropdown-menu" id="dropdown-menu">
+            <a href="admin.html">Administrador</a>
+        </nav>
+    </header>
+    <main>
+        <div class="login-buttons">
+            <button onclick="location.href='login.html'">Iniciar Sesión</button>
+            <button onclick="location.href='register.html'">Registrarse</button>
+        </div>
+        <section class="news-item">
+            <h2>Bienvenidos</h2>
+            <img src="imagenes/Imagen software.png" alt="Bienvenidos">
+        </section>
+        <section class="news-item">
+            <h2>Noticias</h2>
+            <img src="imagenes/Imagen noticias.png" alt="Noticias">
+            <p>Tesla y otras compañías de vehículos eléctricos están liderando la transición hacia un futuro más sostenible. Con nuevas baterías de larga duración y redes de carga más eficientes, los coches eléctricos están ganando popularidad en todo el mundo.</p>
+            <button class="button-large" onclick="location.href='news.html'">Conoce más</button>
+        </section>
+        <section class="news-item">
+            <h2>Eventos</h2>
+            <img src="imagenes/Imagen eventos.png" alt="Eventos">
+            <p>Descubre los próximos eventos sobre tecnología y ciberseguridad que se llevarán a cabo este mes.</p>
+            <button class="button-large" onclick="location.href='events.html'">Acerca de</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
