@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <img src="imagenes/Logo J.png" alt="Logotipo de J" title="Logotipo de J" class="logo">
+        <h2 title="Sección de administración">Administrador</h2>
+    </header>
+    <main>
+        <div class="admin-buttons" title="Opciones de administración">
+            <button class="add-user" onclick="addUser()" title="Agregar un nuevo usuario">Agregar Usuario</button>
+            <button class="remove-user" onclick="removeUser()" title="Eliminar un usuario">Eliminar Usuario</button>
+        </div>
+        <div class="user-list" title="Lista de usuarios">
+            <div class="user-item">
+                <div class="user-color" style="background-color: #FF0000;" title="Color del usuario"></div>
+                <span title="Nombre del usuario">Usuario 1</span>
+                <button class="edit-btn" onclick="editUser('Usuario 1')" title="Editar Usuario 1">Editar</button>
+            </div>
+            <div class="user-item">
+                <div class="user-color" style="background-color: #00FF00;" title="Color del usuario"></div>
+                <span title="Nombre del usuario">Usuario 2</span>
+                <button class="edit-btn" onclick="editUser('Usuario 2')" title="Editar Usuario 2">Editar</button>
+            </div>
+            <div class="user-item">
+                <div class="user-color" style="background-color: #0000FF;" title="Color del usuario"></div>
+                <span title="Nombre del usuario">Usuario 3</span>
+                <button class="edit-btn" onclick="editUser('Usuario 3')" title="Editar Usuario 3">Editar</button>
+            </div>
+        </div>
+        <button class="back-btn" onclick="location.href='index.html'" title="Regresar a la página principal">Regresar</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
